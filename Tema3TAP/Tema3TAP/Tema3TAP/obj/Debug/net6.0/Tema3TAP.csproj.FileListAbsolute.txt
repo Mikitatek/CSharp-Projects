@@ -1,0 +1,15 @@
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\bin\Debug\net6.0\Tema3TAP.exe
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\bin\Debug\net6.0\Tema3TAP.deps.json
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\bin\Debug\net6.0\Tema3TAP.runtimeconfig.json
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\bin\Debug\net6.0\Tema3TAP.dll
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\bin\Debug\net6.0\Tema3TAP.pdb
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\Tema3TAP.csproj.AssemblyReference.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\Tema3TAP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\Tema3TAP.AssemblyInfoInputs.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\Tema3TAP.AssemblyInfo.cs
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\Tema3TAP.csproj.CoreCompileInputs.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\Tema3TAP.dll
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\refint\Tema3TAP.dll
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\Tema3TAP.pdb
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\Tema3TAP.genruntimeconfig.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema3TAP\Tema3TAP\Tema3TAP\obj\Debug\net6.0\ref\Tema3TAP.dll

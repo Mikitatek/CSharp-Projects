@@ -185,180 +185,129 @@ namespace NumberFormats
         #endregion
     }
 
-    public class Irational
+    public class Complex
     {
         #region Constructors
-        public Irational()
+        public Complex()
         {
-            this.Denominator = 1;
-            this.Numerator = 0;
-            this.WholePart = 0;
+            this.m_real = 1;
+            this.m_imaginary = 0;
         }
-        public Irational(int numerator, int denominator)
+        public Complex(float real, float imaginary)
         {
-            this.m_numerator = numerator;
-            this.m_denominator = denominator;
+            this.m_real = real;
+            this.m_imaginary = imaginary;
         }
         #endregion Constructors
 
         #region Operators
-        public static Irational operator +(Irational A, Irational B)
+        public static bool operator ==(Complex c1, Complex c2)
         {
-            return new Irational(A.Numerator * B.Denominator + B.Numerator * A.Denominator, A.Denominator * B.Denominator);
+            if ((c1.m_real == c2.m_real) &&
+            (c1.m_imaginary == c2.m_imaginary))
+                return (true);
+            else
+                return (false);
         }
+        public static bool operator !=(Complex c1, Complex c2)
+        {
+            return (!(c1 == c2));
+        }
+        public static Complex operator +(Complex c1, Complex c2)
+        {
+            return (new Complex(c1.m_real + c2.m_real, c1.m_imaginary + c2.m_imaginary));
+        }
+        public static Complex operator -(Complex c1, Complex c2)
+        {
+            return (new Complex(c1.m_real - c2.m_real, c1.m_imaginary - c2.m_imaginary));
+        }
+        public static Complex operator *(Complex c1, Complex c2)
+        {
+            return (new Complex(c1.m_real * c2.m_real - c1.m_imaginary * c2.m_imaginary,
+            c1.m_real * c2.m_imaginary + c2.m_real * c1.m_imaginary));
+        }
+        public static Complex operator /(Complex c1, Complex c2)
+        {
+            if ((c2.m_real == 0.0f) &&
+            (c2.m_imaginary == 0.0f))
+                throw new DivideByZeroException("Can't divide by zero Complex number");
 
-        public static Irational operator -(Irational A, Irational B)
-        {
-            return new Irational(A.Numerator * B.Denominator + B.Numerator * A.Denominator, A.Denominator * B.Denominator);
-        }
+            float newReal =
+            (c1.m_real * c2.m_real + c1.m_imaginary * c2.m_imaginary) /
+            (c2.m_real * c2.m_real + c2.m_imaginary * c2.m_imaginary);
+            float newImaginary =
+            (c2.m_real * c1.m_imaginary - c1.m_real * c2.m_imaginary) /
+            (c2.m_real * c2.m_real + c2.m_imaginary * c2.m_imaginary);
 
-        public static Irational operator *(Irational A, Irational B)
-        {
-            return new Irational(A.Numerator * B.Numerator, A.Denominator * B.Denominator);
+            return (new Complex(newReal, newImaginary));
         }
-
-        public static Irational operator /(Irational A, Irational B)
+        public override string ToString()
         {
-            return new Irational(A.Numerator * B.Denominator, B.Numerator * A.Denominator);
+            return String.Format("({0}, {1} i)", m_real, m_imaginary);
         }
-        public static bool operator ==(Irational A, Irational B)
-        {
-            return (A.Denominator == B.Denominator && A.Numerator == B.Numerator);
-        }
-
-        public static bool operator !=(Irational A, Irational B)
-        {
-            return (A.Denominator != B.Denominator || A.Numerator != B.Numerator);
-        }
-
-        public static bool operator <(Irational A, Irational B)
-        {
-            return ((double)(A.Numerator / A.Denominator) < (double)(B.Numerator / B.Denominator));
-        }
-
-        public static bool operator >(Irational A, Irational B)
-        {
-            return ((double)(A.Numerator / A.Denominator) < (double)(B.Numerator / B.Denominator));
-        }
-
-        public static bool operator <=(Irational A, Irational B)
-        {
-            return ((double)(A.Numerator / A.Denominator) <= (double)(B.Numerator / B.Denominator));
-        }
-
-        public static bool operator >=(Irational A, Irational B)
-        {
-            return ((double)(A.Numerator / A.Denominator) >= (double)(B.Numerator / B.Denominator));
-        }
-
 #pragma warning disable CS8765 // Nullability of type of parameter doesn't match overridden member (possibly because of nullability attributes).
-        public override bool Equals(System.Object obj)
+        public override bool Equals(object o2)
 #pragma warning restore CS8765 // Nullability of type of parameter doesn't match overridden member (possibly because of nullability attributes).
         {
-            return base.Equals(obj);
-        }
+            Complex c2 = (Complex)o2;
 
+            return (this == c2);
+        }
         public override int GetHashCode()
         {
-            return base.GetHashCode();
+            return (m_real.GetHashCode() ^ m_imaginary.GetHashCode());
         }
         #endregion operators
 
         #region Methods
-        public override string ToString()
+        public static Complex Add(Complex c1, Complex c2)
         {
-            return String.Format("{0} / {1}", this.Numerator, this.Denominator);
+            return (c1 + c2);
         }
-
-        public static Irational Simplify(Irational x)
+        public static Complex Subtract(Complex c1, Complex c2)
         {
-            int den = x.Denominator;
-            int num = x.Numerator; int divisor = den; // Start division by denominator value
-            while (divisor > 2)
-            {
-                if (num % divisor == 0 && den % divisor == 0)
-                { // Condition true if num and den are divisable by same value
-                    num /= divisor;
-                    den /= divisor;
-                }
-                divisor--;
-            }
-            return new Irational(num, den);
+            return (c1 - c2);
         }
-
-        public static string StrFraction(double x)
+        public static Complex Multiply(Complex c1, Complex c2)
         {
-            double entero, dec;
-            double divisor;
-            double numerador, denominador;
-            int iteration = 0;
-            entero = (int)x;
-            dec = x - entero;
-            numerador = dec * DECIMALS;
-            denominador = DECIMALS;
-            divisor = 2;
-            while (divisor <= numerador)
-            {
-                if (numerador % divisor == 0 && denominador % divisor == 0)
-                {
-                    numerador /= divisor;
-                    denominador /= divisor;
-                }
-                else divisor++;
-                iteration++;
-            }
-            if (entero == 0)
-                return String.Format("{0}/{1}", numerador, denominador);
-            else return String.Format("{0} - {1}/{2}", entero, numerador, denominador);
+            return (c1 * c2);
         }
-        public static double ToDecimal(Irational x)
+        public static Complex Divide(Complex c1, Complex c2)
         {
-            double divisor = x.Numerator / x.Denominator;
-            return divisor;
+            return (c1 / c2);
         }
         #endregion
 
         #region Properties
-        public int Numerator
+        public float Real
         {
             get
             {
-                return this.m_numerator;
+                return (m_real);
             }
             set
             {
-                this.m_numerator = value;
+                m_real = value;
             }
         }
-        public int Denominator
+
+        public float Imaginary
         {
             get
             {
-                return this.m_denominator;
+                return (m_imaginary);
             }
             set
             {
-                this.m_denominator = value;
+                m_imaginary = value;
             }
         }
-        public int WholePart
-        {
-            get
-            {
-                return this.m_WholePart;
-            }
-            set
-            {
-                this.m_WholePart = value;
-            }
-        }
+
         #endregion
 
         #region Fields
-        public const int DECIMALS = 100000; // Value to star the denominator division to simplify
-        private int m_numerator;
-        private int m_denominator;
-        private int m_WholePart;
+        private float m_imaginary;
+        private float m_real;
         #endregion
     }
 }

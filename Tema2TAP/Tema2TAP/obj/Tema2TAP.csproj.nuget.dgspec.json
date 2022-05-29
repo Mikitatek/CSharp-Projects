@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Miki\\source\\repos\\Tema2TAP\\Tema2TAP\\Tema2TAP.csproj": {}
+    "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema2TAP\\Tema2TAP\\Tema2TAP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Miki\\source\\repos\\Tema2TAP\\Tema2TAP\\Tema2TAP.csproj": {
+    "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema2TAP\\Tema2TAP\\Tema2TAP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miki\\source\\repos\\Tema2TAP\\Tema2TAP\\Tema2TAP.csproj",
+        "projectUniqueName": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema2TAP\\Tema2TAP\\Tema2TAP.csproj",
         "projectName": "Tema2TAP",
-        "projectPath": "C:\\Users\\Miki\\source\\repos\\Tema2TAP\\Tema2TAP\\Tema2TAP.csproj",
-        "packagesPath": "C:\\Users\\Miki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miki\\source\\repos\\Tema2TAP\\Tema2TAP\\obj\\",
+        "projectPath": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema2TAP\\Tema2TAP\\Tema2TAP.csproj",
+        "packagesPath": "C:\\Users\\mikit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema2TAP\\Tema2TAP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Miki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

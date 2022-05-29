@@ -9,3 +9,14 @@ C:\Users\mikit\Desktop\calculator\obj\Debug\Tema4TAP.csproj.GenerateResource.cac
 C:\Users\mikit\Desktop\calculator\obj\Debug\Tema4TAP.csproj.CoreCompileInputs.cache
 C:\Users\mikit\Desktop\calculator\obj\Debug\calculator.exe
 C:\Users\mikit\Desktop\calculator\obj\Debug\calculator.pdb
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\bin\Debug\calculator.exe.config
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\bin\Debug\calculator.exe
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\bin\Debug\calculator.pdb
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\obj\Debug\Tema4TAP.csproj.AssemblyReference.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\obj\Debug\Tema4TAP.csproj.SuggestedBindingRedirects.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\obj\Debug\calculator.Form1.resources
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\obj\Debug\Tema4TAP.csproj.GenerateResource.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\obj\Debug\Tema4TAP.csproj.CoreCompileInputs.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\obj\Debug\calculator.exe
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema4TAP\obj\Debug\calculator.pdb

@@ -1,0 +1,5 @@
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema2TAP\Tema2TAP\obj\Debug\net6.0\Tema2TAP.csproj.AssemblyReference.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema2TAP\Tema2TAP\obj\Debug\net6.0\Tema2TAP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema2TAP\Tema2TAP\obj\Debug\net6.0\Tema2TAP.AssemblyInfoInputs.cache
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema2TAP\Tema2TAP\obj\Debug\net6.0\Tema2TAP.AssemblyInfo.cs
+C:\Users\mikit\OneDrive\Documents\GitHub\CSharp-Projects\Tema2TAP\Tema2TAP\obj\Debug\net6.0\Tema2TAP.csproj.CoreCompileInputs.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP\\Tema3TAP.csproj": {}
+    "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP\\Tema3TAP.csproj": {
+    "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP\\Tema3TAP.csproj",
+        "projectUniqueName": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP.csproj",
         "projectName": "Tema3TAP",
-        "projectPath": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP\\Tema3TAP.csproj",
+        "projectPath": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP.csproj",
         "packagesPath": "C:\\Users\\mikit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\Tema3TAP\\obj\\",
+        "outputPath": "C:\\Users\\mikit\\OneDrive\\Documents\\GitHub\\CSharp-Projects\\Tema3TAP\\Tema3TAP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

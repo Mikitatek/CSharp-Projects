@@ -1,0 +1,15 @@
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\bin\Debug\net6.0\Tema1TAP.exe
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\bin\Debug\net6.0\Tema1TAP.deps.json
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\bin\Debug\net6.0\Tema1TAP.runtimeconfig.json
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\bin\Debug\net6.0\Tema1TAP.dll
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\bin\Debug\net6.0\Tema1TAP.pdb
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\Tema1TAP.csproj.AssemblyReference.cache
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\Tema1TAP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\Tema1TAP.AssemblyInfoInputs.cache
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\Tema1TAP.AssemblyInfo.cs
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\Tema1TAP.csproj.CoreCompileInputs.cache
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\Tema1TAP.dll
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\refint\Tema1TAP.dll
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\Tema1TAP.pdb
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\Tema1TAP.genruntimeconfig.cache
+C:\Users\Miki\source\repos\Tema1TAP\Tema1TAP\obj\Debug\net6.0\ref\Tema1TAP.dll
